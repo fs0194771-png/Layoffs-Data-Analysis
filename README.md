@@ -4,7 +4,8 @@
 
 This project analyzes layoffs data to identify major patterns and trends in workforce reductions across companies, countries, industries, company stages, and years.
 
-The project covers the main steps of a data analysis workflow, including data cleaning, exploratory data analysis (EDA), and data visualization using **Python**, in addition to building an interactive dashboard using **Power BI**. The project is also published and version-controlled on **GitHub**.
+The project covers the main steps of a data analysis workflow, including data cleaning, exploratory data analysis (EDA), and data visualization using **Python**, in addition to building an interactive dashboard using **Power BI**.
+The project is also published and version-controlled on **GitHub**.
 
 ## Dataset
 
@@ -62,6 +63,27 @@ The main questions explored were:
 - Is there a relationship between funding raised and total layoffs?
 - How are the numerical variables correlated?
 
+## Interactive Power BI Dashboard
+
+In addition to the Python analysis, I built an interactive dashboard using **Power BI** to explore the layoffs data (2020-2023) in a more dynamic way.
+
+![Layoffs Dashboard](Layoofs%20dashboard.png)
+
+### What the Dashboard Includes
+
+- **Interactive Filters:** Year, Company, Country, Industry, and Stage slicers that update all visuals at once.
+- **KPI Cards:** Total Laid Off (383K), Total Companies (1,884), Total Funds Raised, Average Layoff per Company (203), and Average Funds Raised (823).
+- **Layoffs Trend Over Time:** A line/area chart showing how layoffs changed from 2020 to 2023.
+- **Top 5 Countries by Total Laid Off:** A bar chart highlighting the most affected countries, led by the United States.
+- **Top 5 Stages by Total Laid Off:** A bar chart comparing company stages, with Post-IPO companies at the top.
+- **Companies by Total Laid Off:** A detailed table showing each company's layoffs, funds raised, industry, and country.
+- **Top 10 Industries by Total Laid Off:** A bar chart showing the industries with the highest layoffs, such as Consumer and Retail.
+- **Layoffs by Country:** A donut chart showing each country's share of total layoffs (the United States accounts for about 66.83%).
+
+### Dashboard Link
+
+🔗 **[Open the Interactive Layoffs Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTQ2MGM5NDItYzU1OS00YmRmLWFjMjYtMzJjOGQyNmE3NTFlIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9)**
+
 ## Data Visualization
 
 ### 1. Top 10 Companies by Total Layoffs
@@ -108,27 +130,6 @@ This visualization compares layoffs across different company stages.
 The correlation matrix shows the relationships between the numerical variables in the dataset.
 
 ![Correlation Matrix](correlation_matrix.png)
-
-## Interactive Power BI Dashboard
-
-In addition to the Python analysis, I built an interactive dashboard using **Power BI** to explore the layoffs data (2020-2023) in a more dynamic way.
-
-![Layoffs Dashboard](Layoofs%20dashboard.png)
-
-### What the Dashboard Includes
-
-- **Interactive Filters:** Year, Company, Country, Industry, and Stage slicers that update all visuals at once.
-- **KPI Cards:** Total Laid Off (383K), Total Companies (1,884), Total Funds Raised, Average Layoff per Company (203), and Average Funds Raised (823).
-- **Layoffs Trend Over Time:** A line/area chart showing how layoffs changed from 2020 to 2023.
-- **Top 5 Countries by Total Laid Off:** A bar chart highlighting the most affected countries, led by the United States.
-- **Top 5 Stages by Total Laid Off:** A bar chart comparing company stages, with Post-IPO companies at the top.
-- **Companies by Total Laid Off:** A detailed table showing each company's layoffs, funds raised, industry, and country.
-- **Top 10 Industries by Total Laid Off:** A bar chart showing the industries with the highest layoffs, such as Consumer and Retail.
-- **Layoffs by Country:** A donut chart showing each country's share of total layoffs (the United States accounts for about 66.83%).
-
-### Dashboard Link
-
-🔗 **[Open the Interactive Layoffs Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTQ2MGM5NDItYzU1OS00YmRmLWFjMjYtMzJjOGQyNmE3NTFlIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9)**
 
 ## Key Insights
 
